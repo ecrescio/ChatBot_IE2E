@@ -38,7 +38,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 #from InstructorEmbedding import INSTRUCTOR
-from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 import os
 
@@ -64,7 +64,7 @@ embeddings=GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 #  model='mxbai-embed-large',
 #)
 #embeddings = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
-#embeddings = SentenceTransformer("all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 
 #Load documents
