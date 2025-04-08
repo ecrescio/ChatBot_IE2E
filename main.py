@@ -38,8 +38,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 #from InstructorEmbedding import INSTRUCTOR
-#from langchain_community.embeddings import SentenceTransformerEmbeddings
-from sentence_transformers import SentenceTransformer
+from langchain_community.embeddings import SentenceTransformerEmbeddings
 
 import os
 
