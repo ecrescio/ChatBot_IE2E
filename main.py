@@ -60,12 +60,12 @@ groq_chat = ChatGroq(
 #llm = groq_chat
 
 #embeddings= OllamaEmbeddings()
-#embeddings=GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+embeddings=GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 #embeddings=OllamaEmbeddings(
 #  model='mxbai-embed-large',
 #)
 #embeddings = HuggingFaceInstructEmbeddings(model_name='hkunlp/instructor-xl')
-embeddings = SentenceTransformer("all-MiniLM-L6-v2")
+#embeddings = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 #Load documents
