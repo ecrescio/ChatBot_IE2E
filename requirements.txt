@@ -51,6 +51,7 @@ langchain-experimental==0.3.4
 langchain-google-genai==2.0.9
 langchain-groq==0.2.4
 langchain-text-splitters==0.3.5
+langchain-huggingface
 langgraph==0.2.69
 langgraph-checkpoint==2.0.10
 langgraph-sdk==0.1.51
